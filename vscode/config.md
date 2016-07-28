@@ -13,7 +13,11 @@
     "when": "editorTextFocus"
 }
 ,{
-    "key": "shift+cmd+right",
+    "key": "shift+left",
+    "command": "expandLineSelection",
+    "when": "editorTextFocus"
+},{
+    "key": "shift+right",
     "command": "expandLineSelection",
     "when": "editorTextFocus"
 },{
