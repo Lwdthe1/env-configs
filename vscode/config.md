@@ -58,5 +58,15 @@
     "when": "editorTextFocus"
 }]
 ```
-
+##Workspace Settings
+```json
+{
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/out": true
+    }
+}
+```
 
