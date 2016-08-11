@@ -7,6 +7,7 @@
 
 ##Keyboard shortcuts
 ```json
+// Place your key bindings in this file to overwrite the defaults
 [{
     "key": "cmd+r",
     "command": "editor.action.rename",
@@ -35,6 +36,18 @@
 },{
     "key": "cmd+right",
     "command": "cursorEnd",
+    "when": "editorTextFocus"
+},{
+    "key": "cmd+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus"
+},{
+    "key": "cmd+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "editorTextFocus"
+},{
+    "key": "cmd+v",
+    "command": "editor.action.clipboardPasteAction",
     "when": "editorTextFocus"
 },{
     "key": "ctrl+shift+z",
